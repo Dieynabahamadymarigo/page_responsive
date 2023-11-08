@@ -1,0 +1,223 @@
+body{
+    background-color: rgb(234, 228, 228);
+}
+/* entete */
+.entete{
+    display: flex;
+    background-color: rgb(29, 29, 93);
+    background-size: cover;
+}
+.info{
+    display: flex;
+}
+.entete img{
+    height: 28px;
+    width: 18%;
+    padding-left:10px;
+}
+.entete p{
+    color: white;
+    font-size:11px;
+}
+.localisation{
+    display: flex;
+}
+.tel{
+    display: flex;
+}
+.tel img{
+    height: 35px !important;
+    width: 22%;
+}
+.mail{
+    display: flex;
+}
+.mail img{
+    height: 30px !important;
+    width: 22%;
+}
+.mail p{
+    padding-left: 5px;
+}
+
+/* icon */
+
+.icon{
+    display: flex;
+    margin-left: 48%;
+}
+.twitter{
+    height: 22px !important; 
+    margin-top: 6px;
+}
+.facebook{
+    height: 22px !important; 
+    margin-top: 6px;
+}
+.in{
+    height: 18px !important; 
+    margin-top: 6px;
+}
+.instagram{
+    height: 20px !important; 
+    margin-top: 6px;
+}
+.youtube{
+    height: 35px !important;
+    width: 40% !important;
+
+}
+
+/* menu */
+.menu{
+    display: flex;
+    margin-top: 1px;
+    /* position: fixed;   */
+    width: 100%; 
+    /* background-color: #f9f9f9; */
+    /* opacity: 70%; */
+}
+.menu img{
+    height: 100px;
+    /* border: 1px solid black; */
+}
+ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 250px !important;
+}
+.lien{
+    text-decoration: none;
+    padding: 0 auto;
+    margin-left: 20px !important; 
+}
+.lien:hover{
+    /* opacity: 100% !important; */
+    background-color: #3c96fd;
+    color: white;
+    font-weight: bold;  
+    padding: 10px;
+    border:2px solid #3c96fd;
+    border-radius: 10px;   
+}
+.menu button{
+    cursor: pointer;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 3%;
+    height: 50px;
+    background-color: #3c96fd;
+    border: none;
+    color: white;
+}
+.menu button:hover{
+    background-color:rgb(29, 29, 93) ;
+}
+i{
+    position: relative;
+    bottom: -7px !important;
+}
+.sousmenutitre {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sousmenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .sousmenu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+ .sousmenu-content a:hover {
+    background-color: #3c96fd;
+    color: white;
+} 
+  .sousmenu:hover .sousmenu-content {
+    display: block;
+}
+ 
+/* La baniere */
+.baner img{
+    /* background-color: black; */
+    width: 100%;
+    height: 600px;
+    /* opacity: 70%; */
+}
+
+.banerdescrition{
+    color: rgb(234, 228, 228);
+    text-align: center;
+    margin-top: -400px;
+    font-weight: bold;
+    text-shadow: 3px 1.5px black;
+}
+.banerdescrition p {
+    font-size: 20px;
+}
+.banerdescrition h1 {
+    font-size: 40px;
+}
+.banerdescrition button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color:transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+    /* border-radius: 20px 0 20px 0; */
+    margin-left:30px;
+}
+.banerdescrition button:hover {
+    background-color: #3c96fd;
+    color: white;
+    border: none;
+    /* border: 2px solid white; */
+}
+
+/* tel */
+/* Styles de base */
+
+/* Styles pour les écrans de largeur moyenne */
+/* @media screen and (max-width: 768px) {
+    .menu li {
+      display: block;
+      margin: 5px 0;
+    }
+    .menu img{
+        height: 60px;
+    }
+  }
+  
+  /* Styles pour les écrans étroits (mobile) */
+  /* @media screen and (max-width: 480px) {
+    .menu  {
+      text-align: center;
+    }
+  
+    .menu ul {
+      display: none;
+    }
+  
+    .menu.active ul {
+      display: block;
+    }
+  
+    .menu.active li {
+      display: block;
+    }
+  }  */
+  

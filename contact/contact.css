@@ -1,0 +1,142 @@
+.identifiant{
+    display: flex;
+    margin-top: 6%;
+    justify-content: space-evenly;
+}
+.identifiant p{
+    /* border: 2px solid; */
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+.identifiant img{
+    height: 40px;
+    background-color: #3c96fd;
+    padding: 12px 12px;
+}
+.contlocalisation{
+    display: flex;
+    width: 22%;
+    /* border: 2px solid; */
+    
+}
+.conttel{
+    display: flex;
+    width: 22%;
+    /* border: 2px solid; */
+    
+}
+.contmail{
+    display: flex;
+    width: 22%;
+    /* border: 2px solid; */
+    
+}
+.identexte{
+    color: #3c96fd;
+    width: 100%;
+}
+.gidentifiant{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.formulaire {
+    width: 50%;
+    /* border: 2px solid; */
+}
+.nom{
+    width: 45%;
+    padding: 12px 12px;
+    margin-bottom:2%;
+}
+.subject{
+    width: 95%;
+    padding: 12px 12px;
+    margin-bottom:2%;
+}
+.formulaire button{
+    width: 99%;
+    padding: 12px 12px;
+    margin-top:4%;
+    background-color: #3c96fd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.formulaire textarea{
+    width: 98.5%;
+}
+
+/* telephone */
+
+@media screen and (max-width :767px) {
+    .identifiant{
+        display: block;
+        margin-top: 6%;
+        justify-content: space-evenly;
+    }
+    .identifiant img{
+        height: 30px;
+        background-color: #3c96fd;
+        padding: 10px 10px;
+    }
+    .contlocalisation{
+        display: flex;
+        width: 100%;
+        /* border: 2px solid; */
+        
+    }
+    .conttel{
+        display: flex;
+        width: 100%;
+        /* border: 2px solid; */
+        
+    }
+    .identexte{
+        color: #3c96fd;
+        width: 100%;
+        margin-top: -10px !important;
+    }
+    .contmail{
+        display: flex;
+        width: 100%;
+        /* border: 2px solid; */
+        
+    }
+    .gidentifiant{
+        margin-top: 7%;
+        display:block;
+        justify-content: space-evenly;
+    }
+    .formulaire {
+        width: 100%;
+        /* border: 2px solid; */
+    }
+    .nom{
+        width: 95%;
+        padding: 12px 12px;
+        margin-bottom:4%;
+    }
+    .subject{
+        width: 95%;
+        padding: 12px 12px;
+        margin-bottom:4%;
+    }
+    .formulaire button{
+        width: 100%;
+        padding: 12px 12px;
+        margin-top:4%;
+        margin-bottom:4%;
+        background-color: #3c96fd;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .formulaire textarea{
+        width: 100%;
+    }
+    .gidentifiant iframe{
+        width: 100%;
+    }
+}

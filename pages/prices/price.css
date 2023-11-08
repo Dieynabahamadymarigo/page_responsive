@@ -1,0 +1,140 @@
+.pricetexte div{
+        /* border: 2px solid; */
+        margin-left: 4%;
+        width: 50%;
+}
+.pricetexte{
+    display: flex;
+    padding-top: 10%;
+    justify-content: space-evenly;
+}
+.pricetexte img{
+    height: 40px;
+    background-color: #3c96fd;
+}
+.pricetexte hr{
+    border: 2px solid #3c96fd;
+    width:20%;
+    margin-left: 1%;
+}
+.pricetextepara{
+    color: #3c96fd;
+}
+.pricetel{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+    margin-left: 1% !important;
+}
+.pricetel p{
+    /* border: 2px solid; */
+    line-height: 8px;
+    width: 110% !important;
+    /* margin-left: 2%; */
+    margin-top: -0% !important;
+}
+.pricetexte form input{
+    width: 85%;
+    padding: 12px 12px;
+    margin: 2%;
+}
+.pricetexte form select{
+    width: 90%;
+    padding: 12px 12px;
+    margin: 2%;
+}
+.pricetexte form textarea{
+    width: 88.9%;
+    margin: 2%;
+    /* padding: 12px 12px; */
+}
+.pricetexte form button{
+    width: 89%;
+    padding: 12px 12px;
+    background-color: rgb(29, 29, 93) ;
+    color: white;
+    border: none;
+    margin: 2%;
+}
+.pricetexte form {
+    background-color: #3c96fd;
+    width: 90%;
+        /* border: 2px solid; */
+}
+@media screen and (max-width : 767px) {
+    .pricetexte div{
+        /* border: 2px solid; */
+        margin-left: 4%;
+        width: 100%;
+}
+.pricetexte{
+    display: block;
+    padding-top: 10%;
+    /* border: 2px solid; */
+    /* justify-content: space-evenly; */
+}
+.pricetexte img{
+    height: 40px;
+    background-color: #3c96fd;
+}
+.pricetexte h1{
+    font-size: 35px;
+}
+.pricetexte hr{
+    border: 2px solid #3c96fd;
+    width:20%;
+    margin-left: 1%;
+}
+.pricetexte p{
+    width:97%;
+}
+.pricetextepara{
+    /* border: 2px solid; */
+    color: #3c96fd;
+    /* width: 80%; */
+}
+.pricetel{
+    /* border: 2px solid; */
+    display: flex;
+    width: 100%;
+    margin:7% ;
+    margin-left: 1% !important;
+}
+.pricetel p{
+    /* border: 2px solid; */
+    line-height: 8px;
+    width: 110% !important;
+    /* margin-left: 2%; */
+    margin-top: 1% !important;
+}
+.pricetexte form input{
+    width: 85%;
+    padding: 12px 12px;
+    margin: 2%;
+}
+.pricetexte form select{
+    width: 93%;
+    padding: 12px 12px;
+    margin: 2%;
+}
+.pricetexte form textarea{
+    width: 91%;
+    margin: 2%;
+    /* padding: 12px 12px; */
+}
+.pricetexte form button{
+    width: 92%;
+    padding: 12px 12px;
+    background-color: rgb(29, 29, 93) ;
+    color: white;
+    border: none;
+    margin: 2%;
+    /* margin-bottom: 2%; */
+}
+.pricetexte form {
+    background-color: #3c96fd;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+    
+}

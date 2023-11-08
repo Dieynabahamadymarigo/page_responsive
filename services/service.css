@@ -1,0 +1,31 @@
+.ourservices{
+    color: #3c96fd;
+    font-size: 25px;
+    text-align: center;
+    padding-top:25% ;
+    margin-bottom: -50px;
+}
+.testimonial{
+    color: #3c96fd;
+    font-size: 25px;
+    text-align: center;
+    padding-top:5% ;
+    margin-bottom: -50px;
+}
+@media screen and (max-width:767px) {
+    .ourservices{
+        color: #3c96fd;
+        font-size: 15px;
+        text-align: center;
+        padding-top:37%;
+        margin-bottom: -220px;
+        }
+        .testimonial{
+            color: #3c96fd;
+            font-size: 15px;
+            text-align: center;
+            padding-top:10% ;
+            margin-bottom: -70px;
+        }
+    
+}
