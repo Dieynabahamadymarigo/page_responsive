@@ -1,0 +1,188 @@
+.espaceblog{
+    padding-bottom: 20%;
+}
+.grandblog{
+    display: grid;
+    grid-template-columns: auto auto  ; 
+    gap: 10px;
+    width: 90%;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    
+}
+.partiablog{
+    display: grid;
+    grid-template-columns: auto auto  ; 
+    /* gap: 1px; */
+    /* margin-top: 8% !important; */
+    /* justify-content: space-evenly; */
+    /* margin: 0 auto; */
+    /* margin-left: 3%; */
+}
+.partiablog img{
+    height: 190px;  
+    /* width: 90%; */
+}
+.partidesign{
+    background-color: #3c96fd;
+    color: white;
+    width: 30%;
+    padding: 5px 4px;
+    position: relative;
+    bottom: -20%;
+    font-size: 6x;
+    /* border: 2px solid; */
+}
+.partiablog2 { 
+    background-color: #cad8ee;
+    color: black;
+    padding-top: 0.5px;
+    height: 250px;
+    margin-top: -5px;
+    line-height: 20px;
+    width: 85.6%;
+    /* border: 2px solid; */
+}
+.partiablog div a{ 
+    text-decoration: none;
+    margin:4px !important;
+    color: #3c96fd;
+    margin-left: 15px !important;
+}
+.partiablogtext2 { 
+    /* border: 2px solid; */
+    margin-left: 15px;
+    width: 90%;
+    /* text-align: justify; */
+}
+.partiablog h3{
+    /* border: 2px solid; */
+    font-size: 25px;
+    /* border: 2px solid; */
+    width: 90%;  
+}
+
+.partiablog div div div img{ 
+    height: 20px;
+}
+.partiablogtext{ 
+    /* border: 2px solid black; */
+    height: 45px !important;
+    width: 70%;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+/* partie blog */
+.blogcategorie{
+    /* border: 2px solid;  */
+    margin-top: 20%;
+    width: 100%;
+    /* margin-left: 10%; */
+}
+.blogcategorie h3{
+    text-align: left;
+    font-size: 22px;
+}
+.blogcategorie hr{
+    border: 2px solid #3c96fd;
+    width: 18%;
+    margin-left: 2%;
+}
+.categorieimg img{
+    height: 20px;
+    width: 8%;
+    /* // border: 2px solid;  */
+}
+.categorieimg h4{
+    margin-left: 2%;
+    margin-top: 0%;
+    font-size: 15px;
+}
+.categorieimg {
+    display: flex;
+    background-color: #cad8ee;
+    padding: 5px;
+    height: 20px;
+   /* border: 2px solid;   */
+}
+.blogcategorieimg {
+    display: flex;
+}
+.blogcategorieimg input{
+    padding: 6px 20px;
+    /* // margin-top: -5%;  */
+}
+.blogcategorieimg img{
+    height: 33px;
+    /* // margin-top: -5%;  */
+}
+.blogcategoriesimg {
+    /* // margin-top: -10% !important;  */
+    background-color: #3c96fd;
+    /* // margin-left: -1.8%;  */
+    border: none;
+    padding-top: 3%;
+    cursor: pointer;
+}
+
+/* post recents */
+.postimg {
+    display: flex;
+    background-color: #cad8ee;
+    padding: 5px;
+    height: 60px;
+   /* border: 2px solid;   */
+}
+
+/* image */
+.imgunique{
+    height: 190px;
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+/* cloud */
+.cloud{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 12px;
+    width: 90%;
+}
+.cloud p{
+    background-color: #cad8ee;
+    padding: 3px;
+    text-align: center;
+}
+
+/* plain text */
+.plaintext { 
+    text-align: justify;
+    background-color: #cad8ee;
+    width: 100%;
+    text-align: center;
+}
+.plaintext p { 
+    padding: 10px 7px;
+    width: 90%;
+}
+.plaintext button { 
+    padding: 10px 26px;
+    background-color: #3c96fd;
+    border: none;
+    color: white;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.plaintext p { 
+    padding: 10px 7px;
+    width: 90%;
+}
+
+
+
+@media screen and (max-width:767) {
+    /* blog */
+    
+}
