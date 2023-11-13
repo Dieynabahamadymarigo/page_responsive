@@ -51,6 +51,10 @@
 
 
 <div class="menu">
+    <!-- <input type="checkbox" id="toggle"> -->
+    <label for="check" class="checkbnt">
+    ☰
+    </label>
     
     <img src="../../img/logo-removebg-preview.png" alt="">
     <ul>
@@ -194,6 +198,17 @@
                 <h6> <a href="../../contact/contact.html">Contact</a></h6>
             </div>
         </footer>
+
+    <!-- <script src="https://kit.fontwarsome.com/a076d05399js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $(".menu").click(function() {
+            $(this).toggleClass("active");
+        });
+        });
+    </script>
+   
 
 
 </body>

@@ -67,6 +67,11 @@ body{
     width: 40% !important;
 
 }
+/*  */
+/* Styles de base */
+
+/* Styles pour les écrans de largeur moyenne */
+
 
 /* menu */
 .checkbnt{
@@ -87,6 +92,9 @@ body{
     width: 100%; 
     /* background-color: #f9f9f9; */
     /* opacity: 70%; */
+}
+.menu label{
+    display:none;
 }
 .menu img{
     height: 100px;
@@ -128,10 +136,10 @@ ul{
 .menu button:hover{
     background-color:rgb(29, 29, 93) ;
 }
-i{
+/* i{
     position: relative;
     bottom: -7px !important;
-}
+} */
 .sousmenutitre {
     border: none;
     cursor: pointer;
